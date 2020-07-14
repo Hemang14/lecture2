@@ -1,0 +1,10 @@
+{% extends "layout8.html" %}
+{%block heading%}
+FORMS
+{%endblock%}
+{%block body%}
+<form action="{{url_for('hello')}}" method='post'>
+  <input type="text" name="name" placeholder="Enter Your Name">
+  <button>DABA NA</button>
+</form>
+{%endblock%}
